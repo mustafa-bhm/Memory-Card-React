@@ -4,7 +4,7 @@ import { cardContext } from "../App";
 function Header() {
   const { clicked, resetGame, gameOver } = useContext(cardContext);
   return (
-    <div>
+    <div className="header">
       <h1 className="text-center font-extrabold text-white text-6xl my-8 ">
         {" "}
         Memory Game{" "}
@@ -17,7 +17,7 @@ function Header() {
         </p>
         <button
           onClick={resetGame}
-          className="  rounded cursor-pointer text-xl text-slate-100 border-4 px-4 hover:border-orange-400 hover:text-orange-400 hover:scale-110 transition duration-500 ease-in-out"
+          className="  rounded cursor-pointer text-xl text-slate-100 border-4 px-4 hover:border-orange-400 hover:text-orange-400 hover:scale-110 transition duration-200 ease-in-out"
         >
           Reset
         </button>
