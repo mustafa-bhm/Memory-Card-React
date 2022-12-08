@@ -10,14 +10,14 @@ function Header() {
         Memory Game{" "}
       </h1>
       <div className="flex flex-row justify-evenly m-3">
-        <p className="text-xl text-slate-100"> Score = {clicked.length}</p>
+        <p className="text-xl text-slate-100"> Score : {clicked.length}</p>
         <p className="font-extrabold text-xl text-slate-100">
           {" "}
           {gameOver ? "Game Over" : " Play"}
         </p>
         <button
           onClick={resetGame}
-          className=" cursor-pointer text-xl text-slate-100 border-4 px-4 hover:border-orange-400 hover:text-orange-400 hover:text-2xl"
+          className="  rounded cursor-pointer text-xl text-slate-100 border-4 px-4 hover:border-orange-400 hover:text-orange-400 hover:scale-110 transition duration-500 ease-in-out"
         >
           Reset
         </button>
