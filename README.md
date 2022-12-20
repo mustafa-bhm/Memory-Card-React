@@ -11,3 +11,5 @@ Each time the user select a card the list will be shuffled and if he/she clicks 
 ## Live
 
 👉 https://mustsfa-memory-game.netlify.app/
+
+![home-page](public/homePage.png)
